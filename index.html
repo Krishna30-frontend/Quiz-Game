@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JavaScript</title>
+  <link rel="stylesheet" href="bootstrap.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <section class="container">
+    <!-- header -->
+      <div class="logo">
+        <h1 class="text-center mt-3">Quiz App</h1>
+        <h6 class="text-center">With <span class="text-danger">JavaScript</span></h6>
+      </div>
+    <!-- header -->
+    <!-- Question -->
+    <main id="main" class="mt-5 hide">
+      <div class="result mb-1">
+        <h1 class="scoreDiv">Score: <span class="score">0</span></h1>
+        <h1 class="timerDiv">Time Left: <span class="timer">05</span></h1>
+      </div>
+      <!-- appendQuestion -->
+      <div id="question">
+      </div>
+      <!-- appendAnswer -->
+      <div id="answer">
+      </div>
+    </main>
+  </section>
+  <div id="start-btn" class="container text-center">
+    
+    <button id="start" class="btn btn-block btn-light btn-lg" type="submit">START</button>
+    
+    <div id="help" class="card mt-5 text-dark p-1">
+      <h1 class="pt-2 card-head">How to Play?</h1>
+      <p class="card-body">Click Start to start playing, Read the question and click the answer and the next button to generate new question</p>
+    </div>
+    
+    <button id="next" class="btn btn-block btn-lg btn-light text-light hide next" type="submit" style="outline: none; border: none;">Next</button>
+  </div>
+
+  <!-- Scripts -->
+  <script src="app.js"></script>
+</body>
+
+</html>

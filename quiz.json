@@ -1,0 +1,209 @@
+[
+  
+  {
+    "question": "Who is the Father of the Nation?",
+    
+    "answers": [
+      {
+        "name": "Mahama Gandhi",
+        "result": "true"
+      },
+      {
+        "name": "Bhagat Singh", 
+        "result": "false"
+        
+      },
+      {
+        "name": "Nelson Mondela", 
+        "result": "false"
+        
+      }
+    ]
+  },
+  {
+    "question": "What is 11 x 6?",
+      
+    "answers": [
+      {
+        "name": "166", 
+        "result": "false"
+        
+      },
+      { 
+        "name": "66", 
+        "result": "true"
+        
+      }
+    ]
+  },
+  {
+    "question": "Hey Do You like the Quiz?",
+    
+    "answers": [
+      {
+        "name": "Yes",
+        "result": "true" 
+      },
+      {
+        "name": "No!, You Suck", 
+        "result": "false" 
+        
+      }
+    ]
+      
+  },
+  {
+    "question": "Where is India Located?",
+    
+    "answers": [
+      {
+        "name": "Asia",
+        "result": "true" 
+      },
+      {
+        "name": "Africa", 
+        "result": "false" 
+        
+      }
+    ]
+  },
+  
+  {
+    "question": "What is JavaScript?",
+    
+    "answers": [
+      {
+        "name": "Programming Langauge",
+        "result": "true" 
+      },
+      {
+        "name": "Markup Langauge", 
+        "result": "false" 
+        
+      }
+    ]
+  },
+  
+  {
+    "question": "Who is the Presedent of USA?",
+    
+    "answers": [
+      {
+        "name": "Donald Trump",
+        "result": "true" 
+      },
+      {
+        "name": "Barrac Obama", 
+        "result": "false" 
+        
+      }
+    ]
+  },
+    {
+      "question": "Where is Sydney Located?",
+      
+      "answers": [
+        {
+          "name": "India",
+          "result": "false"
+        },
+        {
+          "name": "Austriala", 
+          "result": "true"
+          
+        },
+        {
+          "name": "Europe", 
+          "result": "false"
+          
+        }
+      ]
+    },
+    {
+      "question": "What is 23 + 46?",
+        
+      "answers": [
+        {
+          "name": "83", 
+          "result": "false"
+          
+        },
+        { 
+          "name": "69", 
+          "result": "true"
+          
+        }
+      ]
+    },
+    {
+      "question": "Which Year did Avengers EndGame is Relesed?",
+      
+      "answers": [
+        {
+          "name": "1996",
+          "result": "false" 
+        },
+        {
+          "name": "2019", 
+          "result": "true" 
+          
+        },
+        {
+          "name": "None of the Above", 
+          "result": "false" 
+          
+        }
+      ]
+        
+    },
+    {
+      "question": "Who is Dr.Ambedker?",
+      
+      "answers": [
+        {
+          "name": "Doctor",
+          "result": "false" 
+        },
+        {
+          "name": "Loyar", 
+          "result": "true" 
+          
+        }
+      ]
+    },
+    
+    {
+      "question": "TypeScript is a:",
+      
+      "answers": [
+        {
+          "name": "JavaScript Library",
+          "result": "false" 
+        },
+        {
+          "name": "Css Framework", 
+          "result": "false" 
+        },
+        {
+          "name": "All The above are Wrong", 
+          "result": "true" 
+                  
+        }
+      ]
+    },
+    
+    {
+      "question": "Where is Eiffle Tower Located?",
+      
+      "answers": [
+        {
+          "name": "Germany",
+          "result": "false" 
+        },
+        {
+          "name": "Paris", 
+          "result": "true" 
+        }
+      ]
+    }
+]

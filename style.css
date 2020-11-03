@@ -1,0 +1,141 @@
+@font-face {
+  font-family: 'montserrat';
+  src: url(Montserrat-SemiBold.otf);
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'montserrat';
+}
+
+body {
+  height: 100vh !important;
+  overflow: hidden !important;
+  color: #fff;
+  background: #222;
+}
+
+#answer button {
+  font-size: .9rem;
+  padding: 10px;
+  outline: none;
+  border: none;
+}
+
+#answer button:hover {
+  border: none !important;
+}
+
+
+#start-btn button {
+  padding: 10px;
+  font-size: .9rem !important;
+  outline: none;
+  border: none;
+}
+
+.next {
+  color: #fff !important;
+}
+
+#start-btn {
+  margin-top: 10vh;
+}
+
+.correct {
+  color: #000 !important;
+  background: lightgreen !important;
+}
+
+.wrong {
+  background: rgb(230, 50, 90) !important;
+}
+
+.hide {
+  display: none;
+}
+
+.btn {
+  background: #333;
+  padding: 15px !important;
+  border-radius: 3px !important;
+  color: #fff;
+  border: none !important;
+}
+
+#help h1 {
+  font-size: 1.1rem !important;
+}
+
+#help p {
+  font-size: .9rem !important;
+
+}
+
+.btn:hover {
+  border: none !important;
+  outline: none;
+
+}
+
+.result {
+  display: flex;
+  justify-content: space-around;
+  align-items: content: height: 8vh;
+}
+
+.result h1 {
+  font-size: 1rem;
+  padding: 0 10px;
+}
+
+#help {
+  color: #fff !important;
+  line-height: 1.5;
+  font-size: 1rem;
+  background: #333 !important;
+}
+
+
+.animation {
+  height: 100%;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  background: transparent;
+  pointer-events: none;
+}
+
+.slider {
+  /* animation: fade 1s ease-in forwards; */
+  pointer-events: none;
+  opacity: .1 !important;
+
+}
+
+@keyframes fade {
+  0 {
+    transform: translateY(360px);
+    clip-path: circle(50%);
+
+  }
+
+  50% {
+    transform: translateY(0);
+    clip-path: circle(100%);
+  }
+
+
+
+  100% {
+    display: none;
+    opacity: 0;
+    pointer-events: none;
+  }
+}
